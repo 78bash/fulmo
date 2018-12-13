@@ -1,0 +1,83 @@
+body {
+        background-color: #7B97A6;
+}
+
+label {
+        width:180px;
+        clear:left;
+        text-align:right;
+        padding-right:10px;
+        float:left;
+}
+
+input[type="button"] {
+        background-color: #1D465C;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+.info {
+        width: 700px;
+        border: 1px solid black;
+        margin: 10px;
+}
+
+.keyword {
+        font-family: monospace, sans-serif;                                                                                                    font-weight: bold;
+}
+
+.subtitle {
+        font-weight: bold;
+}
+
+.channels {
+        width: 700px;
+        border: 1px solid black;
+        margin: 10px;
+}
+
+.balances {
+        width: 700px;
+        margin: 10px;
+}
+
+.onchainwallet {
+        width: 700px;
+        border: 1px solid black;
+        margin: 10px;
+}
+
+.lightningwallet {
+        width: 700px;
+        word-wrap: break-word;
+        border: 1px solid black;
+        margin: 10px;
+}
+
+.history {
+        width: 700px;
+        margin: 10px;
+}
+
+.buttons{
+        width: 700px;
+        margin: 10px;
+}
+
+.alt:nth-of-type(odd) {
+        background: #b8d1f3;
+}
+
+.alt:nth-of-type(even) {
+        background: #dae5f4;
+}
+
+textarea{
+        width: 650px;
+        height: 100px;
+        margin: 10px;
